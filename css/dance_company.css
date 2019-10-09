@@ -77,11 +77,47 @@ footer{
 	margin: 0 auto;
 }
 
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
 
 /*fin de base*/
 
 /*inicio de inicio*/
 
-.homeimg{}
+.inicioimg{
+	margin-bottom: 1.5em;
+}
 
+.columnas{
+	overflow: hidden;
+}
+
+.bienvenidos{
+	width: 70%;
+	padding-right: 2em;
+}
+
+.imagen{
+	width: 30%;
+	padding-top: 2.2em;
+}
+
+.bienvenidos,
+.imagen{
+	box-sizing: border-box;
+}
+
+.bienvenidos h2{
+	color: #ae0404;
+	font-size: 2em;
+}
+
+.bienvenidos p{
+	font-size: 1.3em;
+}
 /*fin de inicio*/
